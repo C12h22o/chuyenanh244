@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuyển Ảnh thành Văn Bản</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Chuyển Ảnh thành Văn Bản</h1>
+        <input type="file" id="imageInput" accept="image/*">
+        <div id="imagePreview" class="image-preview"></div>
+        <button id="convertButton">Chuyển đổi</button>
+        <div id="textOutput" class="text-output"></div>
+    </div>
+
+    <!-- Tesseract.js Library -->
+    <script src="https://cdn.jsdelivr.net/npm/tesseract.js@2.1.5/dist/tesseract.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
